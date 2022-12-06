@@ -4,8 +4,8 @@ import { BackButton, GridItem } from "../grid";
 import { MainWrapper, SectionLeft, SectionRigth } from "./MainStyle";
 import { GlobalContext } from "../../GlobalContext";
 
-import Button from "../forms/Button";
-import Input from "../forms/Input";
+import Button from "../form/Button";
+import Input from "../form/Input";
 import Loading from "../loading/Loading";
 export const Main = () => {
   const [weight, setWeight] = React.useState(0);
